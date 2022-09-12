@@ -40,8 +40,7 @@ hr{
     border: dotted #EAF6F6 6px;
     border-bottom: none;
     width: 4%;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin: 100px auto;
 }
 
 table{
@@ -163,27 +162,52 @@ clear: left;
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-    text-decoration: none;
-  }
+}
 
-  .copyright{
-     color:#EAF6F6;
-     font-size: 0.75rem;
-     padding: 20px 0;
-  }
-  .janus{
-    margin: 0;
-  }
+.btn:hover {
+background: #30e3cb;
+background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+text-decoration: none;
+}
 
-  .janus:hover{
-    color:#0e6467;
-  }
+.copyright{
+    color:#EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.janus{
+margin: 0;
+}
+
+.janus:hover{
+color:#0e6467;
+}
+
+@media only screen and (min-device-width: 350px) and (max-device-width: 1024px){
+
+    #mountain {
+        width: 100%;
+    }
+    .top-cloud {
+        display: none;
+    }
+    .top-container {
+        padding-top: 7px;
+    }
+    .bottom-cloud{
+        display: none;
+    }
+    .intro {
+        width: 70%;
+    }
+    hr {
+        margin: 40px auto;
+
+    }
+
+}
+    /* For landscape layouts only */
